@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\IPython]
+@="IPython Here"
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\IPython\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /k \"cd \"%V\" & ipython notebook --notebook-dir=\"%V\"\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\IPython]
+@="IPython Here"
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\IPython\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /k \"cd \"%V\" & ipython notebook --notebook-dir=\"%V\"\""
+
